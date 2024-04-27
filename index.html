@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <title>Misza</title>
+    <input id="text">
+    <button onclick="run('text')">submit</button>
+  </body>
+  <script>
+    function run(id){
+      var exec = Document.getElementById(${id})
+      eval(exec)
+    }
+  </script>
+</html>
+
